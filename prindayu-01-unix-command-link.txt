@@ -1,0 +1,422 @@
+
+JAVACOMP-KPJN@JAVACOMP-KPJNPC MINGW32 ~
+$ mkdir dayu-tugas
+
+JAVACOMP-KPJN@JAVACOMP-KPJNPC MINGW32 ~
+$ cd d
+Desktop/    Documents/  Downloads/  dayu-tugas/
+
+JAVACOMP-KPJN@JAVACOMP-KPJNPC MINGW32 ~
+$ cd dayu-tugas/
+
+JAVACOMP-KPJN@JAVACOMP-KPJNPC MINGW32 ~/dayu-tugas
+$ mkdir sekolah kerja
+
+JAVACOMP-KPJN@JAVACOMP-KPJNPC MINGW32 ~/dayu-tugas
+$ ls
+kerja/  sekolah/
+
+JAVACOMP-KPJN@JAVACOMP-KPJNPC MINGW32 ~/dayu-tugas
+$ cd sekolah/
+
+JAVACOMP-KPJN@JAVACOMP-KPJNPC MINGW32 ~/dayu-tugas/sekolah
+$ touch ijazah.txt
+
+JAVACOMP-KPJN@JAVACOMP-KPJNPC MINGW32 ~/dayu-tugas/sekolah
+$ echo "Perkenalkan namaku prindayu arum
+> aku berasal dari sumbawa barat
+> salam kenal :D" > ijazah.txt
+
+JAVACOMP-KPJN@JAVACOMP-KPJNPC MINGW32 ~/dayu-tugas/sekolah
+$ cat ijazah.txt
+Perkenalkan namaku prindayu arum
+aku berasal dari sumbawa barat
+salam kenal :D
+
+JAVACOMP-KPJN@JAVACOMP-KPJNPC MINGW32 ~/dayu-tugas/sekolah
+$ touch portfolio.txt
+
+JAVACOMP-KPJN@JAVACOMP-KPJNPC MINGW32 ~/dayu-tugas/sekolah
+$ echo "saya pernah bekerja pada beberapa perusahaan salah satu diantaranya ialah PT Amman Mineraolio.txt
+
+JAVACOMP-KPJN@JAVACOMP-KPJNPC MINGW32 ~/dayu-tugas/sekolah
+$ cat portfolio.txt
+saya pernah bekerja pada beberapa perusahaan salah satu diantaranya ialah PT Amman Mineral.
+
+JAVACOMP-KPJN@JAVACOMP-KPJNPC MINGW32 ~/dayu-tugas/sekolah
+$ cd ..
+
+JAVACOMP-KPJN@JAVACOMP-KPJNPC MINGW32 ~/dayu-tugas
+$ ls
+kerja/  sekolah/
+
+JAVACOMP-KPJN@JAVACOMP-KPJNPC MINGW32 ~/dayu-tugas
+$ cd kerja/
+
+JAVACOMP-KPJN@JAVACOMP-KPJNPC MINGW32 ~/dayu-tugas/kerja
+$ touch cv.txt
+
+JAVACOMP-KPJN@JAVACOMP-KPJNPC MINGW32 ~/dayu-tugas/kerja
+$ echo "salam,
+> perkenalkan namaku prindayu arum, saya memiliki kegemaran membuat kue." > cv.txt
+
+JAVACOMP-KPJN@JAVACOMP-KPJNPC MINGW32 ~/dayu-tugas/kerja
+$ cat cv.txt
+salam,
+perkenalkan namaku prindayu arum, saya memiliki kegemaran membuat kue.
+
+JAVACOMP-KPJN@JAVACOMP-KPJNPC MINGW32 ~/dayu-tugas/kerja
+$ mv portfolio.txt kerja
+mv: cannot stat 'portfolio.txt': No such file or directory
+
+JAVACOMP-KPJN@JAVACOMP-KPJNPC MINGW32 ~/dayu-tugas/kerja
+$ ls
+cv.txt
+
+JAVACOMP-KPJN@JAVACOMP-KPJNPC MINGW32 ~/dayu-tugas/kerja
+$ mv -r portfolio.txt
+mv: unknown option -- r
+Try 'mv --help' for more information.
+
+JAVACOMP-KPJN@JAVACOMP-KPJNPC MINGW32 ~/dayu-tugas/kerja
+$ ls
+cv.txt
+
+JAVACOMP-KPJN@JAVACOMP-KPJNPC MINGW32 ~/dayu-tugas/kerja
+$ mv portfolio.txt kerja
+mv: cannot stat 'portfolio.txt': No such file or directory
+
+JAVACOMP-KPJN@JAVACOMP-KPJNPC MINGW32 ~/dayu-tugas/kerja
+$ ls
+cv.txt
+
+JAVACOMP-KPJN@JAVACOMP-KPJNPC MINGW32 ~/dayu-tugas/kerja
+$ cd ..
+
+JAVACOMP-KPJN@JAVACOMP-KPJNPC MINGW32 ~/dayu-tugas
+$ ls
+kerja/  sekolah/
+
+JAVACOMP-KPJN@JAVACOMP-KPJNPC MINGW32 ~/dayu-tugas
+$ mv portfolio.txt kerja/
+mv: cannot stat 'portfolio.txt': No such file or directory
+
+JAVACOMP-KPJN@JAVACOMP-KPJNPC MINGW32 ~/dayu-tugas
+$ ls
+kerja/  sekolah/
+
+JAVACOMP-KPJN@JAVACOMP-KPJNPC MINGW32 ~/dayu-tugas
+$ cd kerja/
+
+JAVACOMP-KPJN@JAVACOMP-KPJNPC MINGW32 ~/dayu-tugas/kerja
+$ ls
+cv.txt
+
+JAVACOMP-KPJN@JAVACOMP-KPJNPC MINGW32 ~/dayu-tugas/kerja
+$ cd ..
+
+JAVACOMP-KPJN@JAVACOMP-KPJNPC MINGW32 ~/dayu-tugas
+$ cd sekolah/
+
+JAVACOMP-KPJN@JAVACOMP-KPJNPC MINGW32 ~/dayu-tugas/sekolah
+$ ls
+ijazah.txt  portfolio.txt
+
+JAVACOMP-KPJN@JAVACOMP-KPJNPC MINGW32 ~/dayu-tugas/sekolah
+$ mv portfolio.txt kerja
+
+JAVACOMP-KPJN@JAVACOMP-KPJNPC MINGW32 ~/dayu-tugas/sekolah
+$ ls
+ijazah.txt  kerja
+
+JAVACOMP-KPJN@JAVACOMP-KPJNPC MINGW32 ~/dayu-tugas/sekolah
+$ ke
+KernelBase.dll  kerberos.dll    kernel32.dll    keyiso.dll      keymgr.dll
+
+JAVACOMP-KPJN@JAVACOMP-KPJNPC MINGW32 ~/dayu-tugas/sekolah
+$ mv kerja portfolio.txt
+
+JAVACOMP-KPJN@JAVACOMP-KPJNPC MINGW32 ~/dayu-tugas/sekolah
+$ ls
+ijazah.txt  portfolio.txt
+
+JAVACOMP-KPJN@JAVACOMP-KPJNPC MINGW32 ~/dayu-tugas/sekolah
+$ cd ../ ../
+bash: cd: too many arguments
+
+JAVACOMP-KPJN@JAVACOMP-KPJNPC MINGW32 ~/dayu-tugas/sekolah
+$ cd ..
+
+JAVACOMP-KPJN@JAVACOMP-KPJNPC MINGW32 ~/dayu-tugas
+$ mv ../portfolio.txt ../kerja
+mv: cannot stat '../portfolio.txt': No such file or directory
+
+JAVACOMP-KPJN@JAVACOMP-KPJNPC MINGW32 ~/dayu-tugas
+$ ls
+kerja/  sekolah/
+
+JAVACOMP-KPJN@JAVACOMP-KPJNPC MINGW32 ~/dayu-tugas
+$ cd kerja
+
+JAVACOMP-KPJN@JAVACOMP-KPJNPC MINGW32 ~/dayu-tugas/kerja
+$ ls
+cv.txt
+
+JAVACOMP-KPJN@JAVACOMP-KPJNPC MINGW32 ~/dayu-tugas/kerja
+$ mv ../portfolio.txt ../kerja
+mv: cannot stat '../portfolio.txt': No such file or directory
+
+JAVACOMP-KPJN@JAVACOMP-KPJNPC MINGW32 ~/dayu-tugas/kerja
+$ ls
+cv.txt
+
+JAVACOMP-KPJN@JAVACOMP-KPJNPC MINGW32 ~/dayu-tugas/kerja
+$ cd ../../
+
+JAVACOMP-KPJN@JAVACOMP-KPJNPC MINGW32 ~
+$ cd dayu-tugas
+
+JAVACOMP-KPJN@JAVACOMP-KPJNPC MINGW32 ~/dayu-tugas
+$ ls
+kerja/  sekolah/
+
+JAVACOMP-KPJN@JAVACOMP-KPJNPC MINGW32 ~/dayu-tugas
+$ mv ../ portfolio.txt ../ kerja
+mv: cannot move '../' to a subdirectory of itself, 'kerja/..'
+mv: cannot stat 'portfolio.txt': No such file or directory
+mv: warning: source directory '../' specified more than once
+
+JAVACOMP-KPJN@JAVACOMP-KPJNPC MINGW32 ~/dayu-tugas
+$ ls
+kerja/  sekolah/
+
+JAVACOMP-KPJN@JAVACOMP-KPJNPC MINGW32 ~/dayu-tugas
+$ cd kerja
+
+JAVACOMP-KPJN@JAVACOMP-KPJNPC MINGW32 ~/dayu-tugas/kerja
+$ ls
+cv.txt
+
+JAVACOMP-KPJN@JAVACOMP-KPJNPC MINGW32 ~/dayu-tugas/kerja
+$ cd ../../
+
+JAVACOMP-KPJN@JAVACOMP-KPJNPC MINGW32 ~
+$ mv ../portfolio ../kerja
+mv: cannot stat '../portfolio': No such file or directory
+
+JAVACOMP-KPJN@JAVACOMP-KPJNPC MINGW32 ~
+$ ls
+ AppData/
+'Application Data'@
+ Contacts/
+ Cookies@
+ Desktop/
+ Documents/
+ Downloads/
+ Favorites/
+ Links/
+'Local Settings'@
+ Music/
+'My Documents'@
+ NTUSER.DAT
+ NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TM.blf
+ NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TMContainer00000000000000000002.regtrans-ms
+ NetHood@
+ Pictures/
+ PrintHood@
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+'Start Menu'@
+ Templates@
+ Videos/
+ basic-cli/
+ dayu-tugas/
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.ini
+
+JAVACOMP-KPJN@JAVACOMP-KPJNPC MINGW32 ~
+$ cd dayu-tugas/
+
+JAVACOMP-KPJN@JAVACOMP-KPJNPC MINGW32 ~/dayu-tugas
+$ ls
+kerja/  sekolah/
+
+JAVACOMP-KPJN@JAVACOMP-KPJNPC MINGW32 ~/dayu-tugas
+$ cd kerja/
+
+JAVACOMP-KPJN@JAVACOMP-KPJNPC MINGW32 ~/dayu-tugas/kerja
+$ ls
+cv.txt
+
+JAVACOMP-KPJN@JAVACOMP-KPJNPC MINGW32 ~/dayu-tugas/kerja
+$ cd sekolah
+bash: cd: sekolah: No such file or directory
+
+JAVACOMP-KPJN@JAVACOMP-KPJNPC MINGW32 ~/dayu-tugas/kerja
+$ cd ..
+
+JAVACOMP-KPJN@JAVACOMP-KPJNPC MINGW32 ~/dayu-tugas
+$ cd sekolah/
+
+JAVACOMP-KPJN@JAVACOMP-KPJNPC MINGW32 ~/dayu-tugas/sekolah
+$ ls
+ijazah.txt  portfolio.txt
+
+JAVACOMP-KPJN@JAVACOMP-KPJNPC MINGW32 ~/dayu-tugas/sekolah
+$ mv ../portfolio.txt ../kerja
+mv: cannot stat '../portfolio.txt': No such file or directory
+
+JAVACOMP-KPJN@JAVACOMP-KPJNPC MINGW32 ~/dayu-tugas/sekolah
+$ ls
+ijazah.txt  portfolio.txt
+
+JAVACOMP-KPJN@JAVACOMP-KPJNPC MINGW32 ~/dayu-tugas/sekolah
+$ cd ..
+
+JAVACOMP-KPJN@JAVACOMP-KPJNPC MINGW32 ~/dayu-tugas
+$ cd kerja
+
+JAVACOMP-KPJN@JAVACOMP-KPJNPC MINGW32 ~/dayu-tugas/kerja
+$ mv portfolio.txt kerja
+mv: cannot stat 'portfolio.txt': No such file or directory
+
+JAVACOMP-KPJN@JAVACOMP-KPJNPC MINGW32 ~/dayu-tugas/kerja
+$ ls
+cv.txt
+
+JAVACOMP-KPJN@JAVACOMP-KPJNPC MINGW32 ~/dayu-tugas/kerja
+$ mv ../portfolio.txt ../kerja
+mv: cannot stat '../portfolio.txt': No such file or directory
+
+JAVACOMP-KPJN@JAVACOMP-KPJNPC MINGW32 ~/dayu-tugas/kerja
+$ ls
+cv.txt
+
+JAVACOMP-KPJN@JAVACOMP-KPJNPC MINGW32 ~/dayu-tugas/kerja
+$ mv portfolio.txt
+mv: missing destination file operand after 'portfolio.txt'
+Try 'mv --help' for more information.
+
+JAVACOMP-KPJN@JAVACOMP-KPJNPC MINGW32 ~/dayu-tugas/kerja
+$ ls
+cv.txt
+
+JAVACOMP-KPJN@JAVACOMP-KPJNPC MINGW32 ~/dayu-tugas/kerja
+$ mv ./portfolio.txt
+mv: missing destination file operand after './portfolio.txt'
+Try 'mv --help' for more information.
+
+JAVACOMP-KPJN@JAVACOMP-KPJNPC MINGW32 ~/dayu-tugas/kerja
+$ pwd
+/c/Users/JAVACOMP-KPJN/dayu-tugas/kerja
+
+JAVACOMP-KPJN@JAVACOMP-KPJNPC MINGW32 ~/dayu-tugas/kerja
+$ cd ..
+
+JAVACOMP-KPJN@JAVACOMP-KPJNPC MINGW32 ~/dayu-tugas
+$ cd sekolah/
+
+JAVACOMP-KPJN@JAVACOMP-KPJNPC MINGW32 ~/dayu-tugas/sekolah
+$ ls
+ijazah.txt  portfolio.txt
+
+JAVACOMP-KPJN@JAVACOMP-KPJNPC MINGW32 ~/dayu-tugas/sekolah
+$ mv portfolio.txt kerja
+
+JAVACOMP-KPJN@JAVACOMP-KPJNPC MINGW32 ~/dayu-tugas/sekolah
+$ ls
+ijazah.txt  kerja
+
+JAVACOMP-KPJN@JAVACOMP-KPJNPC MINGW32 ~/dayu-tugas/sekolah
+$ mv kerja portfolio.txt
+
+JAVACOMP-KPJN@JAVACOMP-KPJNPC MINGW32 ~/dayu-tugas/sekolah
+$ ls
+ijazah.txt  portfolio.txt
+
+JAVACOMP-KPJN@JAVACOMP-KPJNPC MINGW32 ~/dayu-tugas/sekolah
+$ mv -r portfolio.txt kerja
+mv: unknown option -- r
+Try 'mv --help' for more information.
+
+JAVACOMP-KPJN@JAVACOMP-KPJNPC MINGW32 ~/dayu-tugas/sekolah
+$ ls
+ijazah.txt  portfolio.txt
+
+JAVACOMP-KPJN@JAVACOMP-KPJNPC MINGW32 ~/dayu-tugas/sekolah
+$ mv ../portfolio.txt ../kerja
+mv: cannot stat '../portfolio.txt': No such file or directory
+
+JAVACOMP-KPJN@JAVACOMP-KPJNPC MINGW32 ~/dayu-tugas/sekolah
+$ ls
+ijazah.txt  portfolio.txt
+
+JAVACOMP-KPJN@JAVACOMP-KPJNPC MINGW32 ~/dayu-tugas/sekolah
+$ cd ..
+
+JAVACOMP-KPJN@JAVACOMP-KPJNPC MINGW32 ~/dayu-tugas
+$ cd kerja/
+
+JAVACOMP-KPJN@JAVACOMP-KPJNPC MINGW32 ~/dayu-tugas/kerja
+$ cd ..
+
+JAVACOMP-KPJN@JAVACOMP-KPJNPC MINGW32 ~/dayu-tugas
+$ cd sekolah/
+
+JAVACOMP-KPJN@JAVACOMP-KPJNPC MINGW32 ~/dayu-tugas/sekolah
+$ ls
+ijazah.txt  portfolio.txt
+
+JAVACOMP-KPJN@JAVACOMP-KPJNPC MINGW32 ~/dayu-tugas/sekolah
+$ cd ..
+
+JAVACOMP-KPJN@JAVACOMP-KPJNPC MINGW32 ~/dayu-tugas
+$ ls
+kerja/  sekolah/
+
+JAVACOMP-KPJN@JAVACOMP-KPJNPC MINGW32 ~/dayu-tugas
+$ mv ../sekolah/portfolio.txt ../kerja
+mv: cannot stat '../sekolah/portfolio.txt': No such file or directory
+
+JAVACOMP-KPJN@JAVACOMP-KPJNPC MINGW32 ~/dayu-tugas
+$ ls
+kerja/  sekolah/
+
+JAVACOMP-KPJN@JAVACOMP-KPJNPC MINGW32 ~/dayu-tugas
+$ mv /sekolah/portfolio.txt /kerja
+mv: cannot stat '/sekolah/portfolio.txt': No such file or directory
+
+JAVACOMP-KPJN@JAVACOMP-KPJNPC MINGW32 ~/dayu-tugas
+$ mv ../dayu-tugas/sekolah/portfolio.txt ../dayu-tugas/kerja
+
+JAVACOMP-KPJN@JAVACOMP-KPJNPC MINGW32 ~/dayu-tugas
+$ ls
+kerja/  sekolah/
+
+JAVACOMP-KPJN@JAVACOMP-KPJNPC MINGW32 ~/dayu-tugas
+$ cd kerja/
+
+JAVACOMP-KPJN@JAVACOMP-KPJNPC MINGW32 ~/dayu-tugas/kerja
+$ ls
+cv.txt  portfolio.txt
+
+JAVACOMP-KPJN@JAVACOMP-KPJNPC MINGW32 ~/dayu-tugas/kerja
+$ pwd
+/c/Users/JAVACOMP-KPJN/dayu-tugas/kerja
+
+JAVACOMP-KPJN@JAVACOMP-KPJNPC MINGW32 ~/dayu-tugas/kerja
+$ cd ../../
+
+JAVACOMP-KPJN@JAVACOMP-KPJNPC MINGW32 ~
+$ cd dayu-tugas/
+
+JAVACOMP-KPJN@JAVACOMP-KPJNPC MINGW32 ~/dayu-tugas
+$ ls
+kerja/  sekolah/
+
+JAVACOMP-KPJN@JAVACOMP-KPJNPC MINGW32 ~/dayu-tugas
+$

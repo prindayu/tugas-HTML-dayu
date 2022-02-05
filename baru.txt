@@ -1,0 +1,41 @@
+ mkdir prindayu
+  457  cd prindayu
+  458  touch REDME.md
+  459  echo "Hallo perkenalkan aku halaman utama"
+  460  git init .
+  461  git add .
+  462  git status
+  463  git commit -m "Inisialisasi Git Repository"
+  464  git status
+  465  git branch
+  466  git branch cv
+  467  git branch
+  468  git checkout master
+  469  git checkout cv
+  470  touch cv.txt
+  471  echo "ini adalah file cv" > cv.txt
+  472  git add .
+  473  git status
+  474  git commit -m "Inisialisai CV"
+  475  git status
+  476  echo "PT AMMAN MINERAL" > cv.txt
+  477  git add .
+  478  git commit -m "perusahaan 1"
+  479  echo "PT pertamina indonesia" > cv.txt
+  480  git add.
+  481  git add .
+  482  git commit -m "perusahaan 2"
+  483  echo "PT ASTRA INDONESIA" > cv.txt
+  484  git add .
+  485  git commit -m "perusahaan 3"
+  486  git branch master
+  487  git checkout master
+  488  ls
+  489  echo "Halo perkenalkan aku halaman utama
+  490   ini adalah update pertama pada branch master" > REDME.md
+  491  git add .
+  492  git commit -m "Update master pertama"
+  493  git branch
+  494  git checkout master
+  495  ls
+  496  git branch
